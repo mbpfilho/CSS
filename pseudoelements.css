@@ -1,0 +1,43 @@
+h4 {
+    display: block;
+  }
+  /* Task: using the :before or :after pseudo elements draw a green line below the h4 element. Hint: use position: absolute and top and left properties to position the line. */
+  h4::before {
+    content: "Reminder: ";
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  h4::after{
+    display: block;
+    width:100%; 
+    height:2px; 
+    background: green; 
+    content:""
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    background-image: url("https://fe-academy-examples.s3.eu-north-1.amazonaws.com/Sprint+4+4.8.+Baby+ikachu.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    top: 230px;
+    left: 10px;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  a {
+    font-size: 1.1rem;
+  }
+  p::first-line {
+    color: limegreen;
+  }
+  p::first-letter {
+    color: salmon;
+  }
+  p::selection {
+    background: orange;
+  }

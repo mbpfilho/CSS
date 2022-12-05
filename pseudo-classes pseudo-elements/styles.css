@@ -1,0 +1,16 @@
+/* A link that has not been visited will be blue */
+a:link {
+    color: blue;
+  }
+  /* A visited link will be purple */
+  a:visited {
+    color: purple;
+  }
+  /* A link that is hovered on will be light blue*/
+  a:hover {
+    color: lightblue;
+  }
+  /* A selected link will be red */
+  a:active {
+    color: red;
+  }

@@ -1,0 +1,77 @@
+div.d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: lightgreen;
+    height: 50px;
+  }
+  p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    margin-left: 120px;
+    background-color: lightblue;
+    border: 2px solid coral;
+    width: auto;
+    text-align: center;
+  }
+
+.box0 {
+margin-bottom: 20px;
+width: 223px;
+height: 40px;
+background-color: blue;
+color: white;
+}
+.box1 {
+margin-bottom: 20px;
+height: 60px;
+}
+.box2 {
+width: 219px;
+border-style: dotted;
+border-color: black;
+border-width: 3px;
+margin-bottom: 40px;
+background-color: blue;
+color: white;
+}
+.main-box {
+background-color: lightblue;
+width: 223px;
+border-width: 1px;
+border-style: solid;
+border-color: black;
+}
+div.main-box {
+width: 220px;
+background-color: lightblue;
+}
+
+.d2 p {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    background-color: rgb(176, 230, 248);
+    text-align: center;
+    font-size: 40px;
+  }
+  div.d2 {
+    background: lightseagreen;
+  }
+
+  .content-box {
+    border: 1px solid black;
+  }
+  div.contain {
+    border-width: 15px;
+    border-style: solid;
+    border-color: #e9385a;
+    margin-left: 100px;
+  }
+  p.write {
+    margin-left: inherit;
+  }

@@ -1,0 +1,25 @@
+p {
+    width: 300px;
+    border: solid;
+  }
+  p.one {
+    border-color: orange;
+  }
+  p.hex {
+    border-color: #e3985a;
+  }
+  p.mixed {
+    border-top-color: orange;
+    border-right-color: palegreen;
+    border-bottom-color: palevioletred;
+    border-left-color: black;
+  }
+  p.transparent {
+    width: 300px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: rgba(0, 0, 255);
+    border-right-color: rgba(0, 0, 255);
+    border-bottom-color: rgba(0, 0, 255, 0.3);
+    border-left-color: rgba(0, 0, 255, 0.3);
+  }

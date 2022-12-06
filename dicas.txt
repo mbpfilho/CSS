@@ -1,1 +1,2 @@
 validador de css http://www.css-validator.org/
+box-sizing

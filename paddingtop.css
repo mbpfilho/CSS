@@ -1,0 +1,12 @@
+p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-inline: ;
+    background-color: lightblue;
+    border-width: 2px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(100, 124, 133);
+  }

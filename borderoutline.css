@@ -1,0 +1,9 @@
+p {width: 100px;}
+    p.dotted {border-style: dotted;}
+    p.dashed {outline-style: dashed;}
+    p.solid {outline-style: solid;}
+    p.double {border-style: double;}
+    p.groove {outline-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {outline-style: inset;}
+    p.outset {border-style: outset;}

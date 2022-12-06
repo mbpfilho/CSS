@@ -1,0 +1,85 @@
+p.color {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    outline-width: 5px;
+    outline-offset: 2px;
+    outline-style: dashed;
+    outline-color: lightblue;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 70%;
+  }
+
+p.offset {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    outline-width: 5px;
+    outline-offset: 3px;
+    outline-style: dashed;
+    outline-color: gray;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 70%;
+  }
+
+  #content {
+    display: flex;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    outline-width: 3px;
+    outline-color: 1px;
+    margin: 5px;
+  }
+  .solid {
+    outline-style: solid;
+  }
+  .dashed {
+    outline-style: dashed;
+  }
+  .dotted {
+    outline-style: dotted;
+  }
+  .double {
+    outline-style: double;
+  }
+  .inset {
+    outline-style: inset;
+  }
+  .outset {
+    outline-style: outset;
+  }
+  .groove {
+    outline-style: groove;
+  }
+  .ridge {
+    outline-style: ridge;
+  }
+
+.width  p {
+    width: 300px;
+    font-size: 24px;
+  }
+  p.thin {
+    outline-width: thin;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-color: orange;
+  }
+  p.medium {
+    outline-width: medium;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-color: orange;
+  }
+  p.thick {
+    outline-width: thick;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-color: orange;
+  }
